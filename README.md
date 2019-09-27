@@ -56,6 +56,7 @@ npm install --save-dev eslint-loader
 npm install --save-dev @babel/core babel-loader @babel/preset-typescript
 npm install --save-dev dotenv dotenv-expand nodemon nodemon-webpack-plugin webpack-node-externals
 npm install --save-dev ts-config-webpack-plugin
+npm install --save-dev husky lint-staged
 ```
 
 <!-- ```bash
