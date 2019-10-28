@@ -42,6 +42,7 @@ module.exports = {
       },
     ],
     // 'no-console': OFF,
-    // 'import/no-unresolved': OFF,
+    'no-unused-vars': OFF,
+    'import/no-unresolved': OFF,
   },
 };
