@@ -50,11 +50,6 @@ module.exports = (env, argv) => {
     },
     plugins: [new webpack.DefinePlugin(getEnvironment()), new TsConfigWebpackPlugin()],
     stats: 'errors-warnings',
-    // node: {
-    //   __console: false,
-    //   __dirname: false,
-    //   __filename: false,
-    // },
   };
   if (!isProd) {
     config.plugins.push(new NodemonPlugin());
